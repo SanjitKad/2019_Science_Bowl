@@ -14,4 +14,5 @@ The features are reduced down to about 600 after these stages.
 The next stage of feature engineering involves Permutation Importance. This is a technique where the model is trained on all the existing features and each feature is tweaked a little to determine the impact of this on the model. The existing features are then listed in order of importance in this scenario. After this, a threshold was manually set to consider the number of features (trial and error) for the final training. The number of features can be chosen based on the tradeoff between fit and performance that is required.
 
 ## 2. Model Training and evaluation
+A wide range of models and states of tunes were tried on the hackathon (including techniques like Artificial neural networks, Support vector machines, Priciple component analysis and so on), 2 models have been trained and the results have been ensembled at the end to produce submissions. Thw two models are Light Gradient Boosted Framework for a decision tree and XG Boosted trees. The ensembling was done to give the model a better generalization . 
 
